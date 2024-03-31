@@ -1,0 +1,13 @@
+const text_odd = "홀수입니다";
+const text_even = "짝수입니다";
+
+console.log('1 : ', exports == module.exports);
+
+// ver1.
+module.exports = {
+    text_odd,
+    text_even
+}
+
+// ver2.
+// PPT 참조
